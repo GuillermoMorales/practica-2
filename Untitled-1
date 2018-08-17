@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Laboratorio 1</title>
+</head>
+<body>
+
+	<h2>Nombres Descriptivos</h2>
+	<hr>
+	<p>Abreviar nombres puede que en algunos casos no sea tan buena idea. Seguramente con el paso del tiempo o cuando un nuevo desarrollador tenga que darle mantenimiento a tu codigo habra quedado en el olvido lo que esa variable representa. Lo ideal es <b>utilizar nombres que describan la funcionalidad de nuestro código.</b></p>
+	<p>Por ejemplo, es mucho más descriptivo escribir: </p>
+	<img src="img/1.png">
+	<p>Que:</p>
+	<img src="img/2.png">
+</body>
+</html>
