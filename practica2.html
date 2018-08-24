@@ -10,77 +10,62 @@
 <body>
   <h1 align="center">Curriculum  Vitae </h1>
   <form action="practica2.html" method="POST">
-
   <fieldset>
     <legend>Datos Personales</legend>
     <label for="dui">DUI:</label>
     <input type="tel" name="dui" id="dui" pattern="[0-9]{8}-[0-9]{1}" placeholder="12345678-9" required>
-
     <label for="fname">Primer Nombre:</label>
     <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-
     <label for="lname">Apellido:</label>
     <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
-
     <label for="gender">Sexo</label>
     <input type="radio" name="sexo" value="m" checked>M
     <input type="radio" name="sexo" value="f">F
     <br>
     <label for="contact">Número de Contacto:</label>
     <input type="number" name="contacto" id="contacto" pattern="[0-9]{8}" required>
-
     <label for="date">Cumpleaños:</label>
     <input type="date" name="cumple" id="cumple" required>
-
     <label for="status">Estado Civil:</label>
     <select name="estado" id="estado">
       <option value="soltero">Soltero</option>
       <option value="casado">Casado</option>
     </select>
-
     <label for="image">Imagen:</label>
     <input type="file" name="imagen" id="imagen" required>
-
   </fieldset>
   <br>
   <fieldset>
     <legend>Experiencia Laboral</legend>
     <textarea rows="10" cols="260" placeholder="Experiencia"></textarea >
-
   </fieldset>
   <br>
   <fieldset>
     <legend>Entrenamiento academico</legend>
     <textarea rows="10" cols="260" placeholder="Entrenamiento academico" required></textarea >
-
   </fieldset>
-
   <fieldset>
     <legend>Estudio adicional</legend>
     <fieldset>
       <legend>Lenguajes de programacion</legend>
-        <input type="checkbox" name="check[]" > Java
-        <input type="checkbox" name="check[]"> C#
-        <input type="checkbox" name="check[]"> Python
-        <input type="checkbox" name="check[]"> C++
-        <input type="checkbox" name="check[]"> Ruby
+        <input type="checkbox" name="check[]" value="Java"> Java
+        <input type="checkbox" name="check[]" value="C#"> C#
+        <input type="checkbox" name="check[]" value"Python"> Python
+        <input type="checkbox" name="check[]" value"C++"> C++
+        <input type="checkbox" name="check[]" value"Ruby"> Ruby
     </fieldset>
     <fieldset>
       <legend>Tecnologias Web</legend>
-        <input type="checkbox" name="check[]"> HTML5
-        <input type="checkbox" name="check[]"> CSS/CSS3
-        <input type="checkbox" name="check[]"> materialize Css
-        <input type="checkbox" name="check[]"> Javascript
-        <input type="checkbox" name="check[]"> Node.js
-        <input type="checkbox" name="check[]"> Spring MVC
+        <input type="checkbox" name="check[]" value"HTML5"> HTML5
+        <input type="checkbox" name="check[]" value"CSS/CSS3"> CSS/CSS3
+        <input type="checkbox" name="check[]" value"materialize"> materialize Css
+        <input type="checkbox" name="check[]" value"Javascript"> Javascript
+        <input type="checkbox" name="check[]" value"Node.js"> Node.js
+        <input type="checkbox" name="check[]" value"Spring MVC"> Spring MVC
     </fieldset>
   </fieldset>
-
   <input type="submit" value="Enviar">
   <input type="submit" value="Cancelar">
-
   </form>
-
-
 </body>
 </html>
